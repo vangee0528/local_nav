@@ -8,7 +8,7 @@ echo ====================================
 echo.
 
 REM 检查虚拟环境是否存在
-if not exist venv (
+if not exist "..\venv" (
     echo ❌ 错误: 虚拟环境不存在
     echo 请先运行 setup.bat 进行安装
     pause
@@ -25,7 +25,7 @@ if not exist config.json (
 
 REM 激活虚拟环境
 echo [1/3] 激活虚拟环境...
-call venv\Scripts\activate.bat
+call "..\venv\Scripts\activate.bat"
 if errorlevel 1 (
     echo ❌ 激活虚拟环境失败
     pause

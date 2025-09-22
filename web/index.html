@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本地设备监控</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>本地设备监控</h1>
+            <div class="status-indicator" id="statusIndicator">
+                <span class="status-dot" id="statusDot"></span>
+                <span class="status-text" id="statusText">正在加载...</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- IP信息卡片 -->
+            <section class="card ip-card">
+                <h2>网络信息</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <label>内网IP</label>
+                        <div class="info-value">
+                            <span id="localIP">加载中...</span>
+                            <button class="copy-btn" onclick="copyToClipboard('localIP')" title="复制">📋</button>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <label>网络接口</label>
+                        <div class="info-value">
+                            <span id="networkInterface">加载中...</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <label>最后更新</label>
+                        <div class="info-value">
+                            <span id="lastUpdate">加载中...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 快捷访问卡片 -->
+            <section class="card services-card">
+                <h2>快捷访问</h2>
+                <div class="services-grid" id="servicesGrid">
+                    <!-- 动态生成服务按钮 -->
+                </div>
+            </section>
+
+            <!-- 历史记录卡片 -->
+            <section class="card history-card">
+                <h2>变更历史</h2>
+                <div class="history-container">
+                    <div class="history-list" id="historyList">
+                        <div class="history-item">
+                            <span class="history-time">等待数据加载...</span>
+                            <span class="history-ip">-</span>
+                            <span class="history-status">初始化</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <span>自动刷新: <span id="autoRefreshStatus">启用</span></span>
+                    <button class="toggle-btn" onclick="toggleAutoRefresh()" id="refreshToggle">暂停</button>
+                </div>
+                <div class="footer-item">
+                    <span>刷新间隔: 30秒</span>
+                </div>
+                <div class="footer-item">
+                    <a href="https://github.com/vangee0528/local_nav" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
