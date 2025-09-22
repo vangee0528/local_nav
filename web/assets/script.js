@@ -31,7 +31,7 @@ async function loadIPData() {
         updateStatus('updating', '正在获取数据...');
         
         // 尝试从data.json文件加载数据
-        const response = await fetch('../data.json?t=' + new Date().getTime());
+        const response = await fetch('./data.json?t=' + new Date().getTime());
         if (response.ok) {
             const data = await response.json();
             updateUIWithData(data);
