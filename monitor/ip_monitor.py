@@ -22,7 +22,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('ip_monitor.log', encoding='utf-8'),
+        logging.FileHandler('logs/ip_monitor.log', encoding='utf-8'),
         logging.StreamHandler(sys.stdout)
     ]
 )
