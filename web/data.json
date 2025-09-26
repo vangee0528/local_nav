@@ -1,7 +1,7 @@
 {
-  "localIP": "10.196.202.89",
+  "localIP": "192.168.78.129",
   "networkInterface": "WLAN",
-  "lastUpdate": "2025-09-26 14:16:57",
+  "lastUpdate": "2025-09-26 15:31:43",
   "history": [
     {
       "timestamp": "2025-09-22 11:13:58",
@@ -21,6 +21,111 @@
     {
       "timestamp": "2025-09-23 22:58:56",
       "ip": "10.196.202.89",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:11:37",
+      "ip": "172.30.16.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:12:37",
+      "ip": "172.30.16.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:13:37",
+      "ip": "172.30.16.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:14:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:15:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:16:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:17:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:18:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:19:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:20:39",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:21:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:22:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:23:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:24:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:25:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:26:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:27:40",
+      "ip": "192.168.137.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:28:40",
+      "ip": "192.168.78.129",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:29:43",
+      "ip": "192.168.78.129",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:30:43",
+      "ip": "192.168.78.129",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-09-26 15:31:43",
+      "ip": "192.168.78.129",
       "change": "updated"
     }
   ]
