@@ -1,27 +1,17 @@
 {
   "localIP": "10.195.110.124",
   "networkInterface": "WLAN",
-  "lastUpdate": "2025-11-07 15:57:12",
+  "lastUpdate": "2025-11-07 16:33:13",
   "history": [
     {
-      "timestamp": "2025-11-02 21:32:58",
-      "ip": "10.196.133.177",
+      "timestamp": "2025-11-07 16:32:13",
+      "ip": "172.20.48.1",
       "change": "new"
     },
     {
-      "timestamp": "2025-11-03 16:13:03",
-      "ip": "10.194.84.49",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-03 23:58:17",
-      "ip": "172.20.48.1",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-07 14:57:12",
+      "timestamp": "2025-11-07 16:33:13",
       "ip": "10.195.110.124",
-      "change": "updated"
+      "change": "new"
     }
   ]
 }
