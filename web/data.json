@@ -1,72 +1,17 @@
 {
   "localIP": "169.254.136.189",
   "networkInterface": "以太网 2",
-  "lastUpdate": "2025-11-11 12:06:58",
+  "lastUpdate": "2025-11-11 12:15:04",
   "history": [
     {
-      "timestamp": "2025-11-07 16:32:13",
+      "timestamp": "2025-11-11 12:14:04",
       "ip": "172.20.48.1",
       "change": "new"
     },
     {
-      "timestamp": "2025-11-07 16:33:13",
-      "ip": "10.195.110.124",
-      "change": "new"
-    },
-    {
-      "timestamp": "2025-11-08 18:53:23",
-      "ip": "10.194.209.205",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-09 00:03:20",
-      "ip": "172.20.48.1",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 10:57:45",
-      "ip": "169.254.23.167",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:09:57",
-      "ip": "10.194.209.205",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:10:59",
-      "ip": "169.254.23.167",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:15:04",
-      "ip": "10.194.209.205",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:17:07",
-      "ip": "169.254.23.167",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:18:10",
-      "ip": "10.194.209.205",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:19:12",
-      "ip": "169.254.23.167",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 11:58:50",
-      "ip": "10.194.209.205",
-      "change": "updated"
-    },
-    {
-      "timestamp": "2025-11-11 12:06:58",
+      "timestamp": "2025-11-11 12:15:04",
       "ip": "169.254.136.189",
-      "change": "updated"
+      "change": "new"
     }
   ]
 }
