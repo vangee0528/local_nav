@@ -1,7 +1,7 @@
 {
   "localIP": "10.196.115.50",
   "networkInterface": "WLAN",
-  "lastUpdate": "2025-12-15 23:38:11",
+  "lastUpdate": "2025-12-16 21:32:45",
   "history": [
     {
       "timestamp": "2025-12-07 18:51:43",
@@ -40,6 +40,11 @@
     },
     {
       "timestamp": "2025-12-10 00:28:35",
+      "ip": "172.23.48.1",
+      "change": "updated"
+    },
+    {
+      "timestamp": "2025-12-16 21:31:44",
       "ip": "172.23.48.1",
       "change": "updated"
     }
